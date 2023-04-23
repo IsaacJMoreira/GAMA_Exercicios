@@ -21,7 +21,7 @@
 /* A ornenação dos elementos impede o aparecimento da sombra*/
 .navbar{  
     position: relative;
-    z-index:- 1;  
+    z-index: -1;  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
