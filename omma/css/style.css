@@ -17,6 +17,8 @@
 #img-banner {
     height: 84px;
     width: 324px;
+    object-fit: contain;
+    
 }
 /* A ornenação dos elementos impede o aparecimento da sombra*/
 .navbar{  
