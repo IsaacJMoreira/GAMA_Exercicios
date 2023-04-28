@@ -26,7 +26,6 @@ body{
     height: 84px;
     width: 324px;
     object-fit: contain;
-    
 }
 /* A ornenação dos elementos impede o aparecimento da sombra*/
 .navbar{  
@@ -72,6 +71,8 @@ body{
     text-shadow: 0.28vw 0.28vw 0 rgba(0, 0, 0, 0.36);
 }
 
+
+/* GALERA QUE VAI FAZER A PÁGINA 3 - AS CLASSES DAQUI */
 .items-receita-da-semana{
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +135,10 @@ body{
     width: 345px;
     height: 342px;
 }
+/* ATÉ AQUI */
 
+/* SE NECESSITAR, ADICIONAR MAIS ELEMENTOS CSS NA PARTE RESERVADA MAIS EMBAIXO */
+/*                            VÁ ATÉ A LINHA 228                               */
 
 .container-comer-viver{
     position: relative;
@@ -179,7 +183,6 @@ body{
     content: " ";
     margin: 2vw 0;
 }
-
 footer{
     width: 100vw;
     display: flex;
@@ -187,8 +190,7 @@ footer{
     justify-content: left;
     position: relative;
     background-color: #FFC107;
-    margin: 0;
-    
+    margin: 0;    
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -201,8 +203,7 @@ footer{
 
 /*PAGE 2- RECEITAS*/
 
-.titulo-page-2 {
-    
+.titulo-page-2 {    
     position: relative;
     width: 440px;
     height: 61px;
@@ -223,22 +224,31 @@ footer{
 }
 
 
+/* PAGE 3- RECEITA - INTERNA */
+/* ************************************
+
+      COLAR CÓDIGO DA PÁGINA 3 AQUI
+
+***************************************/
+
 /* PAGE 4- CONTATO */
 #image-contato{
     width: 24.3vw;
+    height: 53.54vw;
+    object-fit: contain;
 }
 .section-contato{
     margin: 102px 128px 133px 127px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .box-contato{
     flex-direction: column;
     justify-content: center;
     margin: 0 15px;
     width: 53vw;
-    height:57vw;
+    height:53.54vw;
     border: 1px solid #FFA000;
     border-radius: 20px;
 }
@@ -250,7 +260,6 @@ footer{
     width: 90%;
     height: auto;
 }
-
 #submit-name, #submit-email{
     height: 3.4vw;
 }
