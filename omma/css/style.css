@@ -183,6 +183,8 @@ body{
     content: " ";
     margin: 2vw 0;
 }
+
+/* GENERAL STYLING */
 footer{
     width: 100vw;
     display: flex;
