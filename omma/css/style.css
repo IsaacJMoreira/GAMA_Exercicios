@@ -222,7 +222,9 @@ footer{
 
 
 /* PAGE 4- CONTATO */
-
+#image-contato{
+    width: 24.3vw;
+}
 .section-contato{
     margin: 102px 128px 133px 127px;
     display: flex;
@@ -230,12 +232,25 @@ footer{
 }
 
 .box-contato{
+    justify-content: center;
+    margin: 0 15px;
     width: 53vw;
     height:57vw;
     border: 1px solid #FFA000;
     border-radius: 20px;
 }
 .box-contato textarea{
-    width: 52vw;
+    position: relative;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    margin: 25px 33px;
+    width: 90%;
     height: auto;
+}
+
+#submit-name, #submit-email{
+    height: 3.4vw;
+}
+#submit-message{
+    height: 20.4vw;
 }
