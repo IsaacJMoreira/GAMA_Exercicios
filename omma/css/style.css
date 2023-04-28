@@ -554,7 +554,9 @@ color: #000000;
     padding-left: 40px;
     padding-right: 40px;
     font-size: large;
-    border-radius: 10px;
+    border-radius: 50px;
+    outline-color: transparent;
+    border: none;
     color: white;
     margin-top: 30px;
 }
@@ -577,6 +579,7 @@ color: #000000;
 
 .Manda-alo {
     text-align: center;
+    border: none;
     width: 2100px;
     height: 2000;
 }
