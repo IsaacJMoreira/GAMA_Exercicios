@@ -1,6 +1,6 @@
 /********************** 
 
-Equipe 2:
+Equipe 2
 
 Gabriel Matheus Vital
 Matricula: 10036XP51Ha
@@ -12,7 +12,10 @@ Isaac Jerônimo Moreira
 Matrícula: 9966XP51
 
 Marcelo Navarro 
-Matrícula: 9759XP49 
+Matrícula: 9759XP49
+
+João Pedro
+Matrícula: 10037XP51Ha
 
 *************************/
 
@@ -68,6 +71,7 @@ body{
 .navItem{
     padding: 0 29px;
 }
+
 
 /* PAGE 1- INDEX */
 .container-receitas-afeto{
@@ -493,18 +497,21 @@ color: #000000;
 }
 
 /* PAGE 4- CONTATO */
-#image-contato{
+#image-contato {
+    
     width: 24.3vw;
     height: 53.54vw;
     object-fit: contain;
 }
 .section-contato{
+
     margin: 102px 128px 133px 127px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .box-contato{
+
     flex-direction: column;
     justify-content: center;
     margin: 0 15px;
@@ -513,17 +520,72 @@ color: #000000;
     border: 1px solid #FFA000;
     border-radius: 20px;
 }
-.box-contato textarea{
+
+.box-contato p {
+
     position: relative;
+    margin-left: 60px;
+    top: 40px;
+    color: darkgray;
+}
+
+.box-contato textarea {
+
     border: 1px solid #FFA000;
     border-radius: 7px;
-    margin: 25px 33px;
+    margin: 2px 33px;
     width: 90%;
     height: auto;
 }
+
+
+.text-contato {
+
+    color: #FFC107;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 40px
+}
+
+.box-contato input {
+    background-color: #FFC107;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: large;
+    border-radius: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+.box-contato input:hover {
+    transition: 400ms;
+    color: darkgreen;
+}
+
 #submit-name, #submit-email{
     height: 3.4vw;
 }
 #submit-message{
     height: 20.4vw;
+}
+
+.section-alo {
+    position: relative;
+}
+
+.Manda-alo {
+    text-align: center;
+    width: 2100px;
+    height: 2000;
+}
+
+.Manda-um-alo2 {
+    position: absolute;
+    left: 176px;
+    bottom: 300px;
+    font-size: 40px;
+    color: white;
+    max-width: 500px;
 }
