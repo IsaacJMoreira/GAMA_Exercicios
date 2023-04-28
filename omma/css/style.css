@@ -1,4 +1,4 @@
-
+/* GENERAL STYLING */
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +50,8 @@ body{
 .navItem{
     padding: 0 29px;
 }
+
+/* PAGE 1- INDEX */
 .container-receitas-afeto{
     position: relative;
     
@@ -232,6 +234,7 @@ footer{
 }
 
 .box-contato{
+    flex-direction: column;
     justify-content: center;
     margin: 0 15px;
     width: 53vw;
