@@ -219,10 +219,23 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.recipe-page-2{
-    
+
+
+/* PAGE 4- CONTATO */
+
+.section-contato{
+    margin: 102px 128px 133px 127px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.line-page-2{
-    
+.box-contato{
+    width: 53vw;
+    height:57vw;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+}
+.box-contato textarea{
+    width: 52vw;
+    height: auto;
 }
